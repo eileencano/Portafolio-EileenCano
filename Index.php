@@ -120,7 +120,7 @@
     </div>
 </div> 
 
-
+<br><br><br>
 <img src="assets/arrow.png" class="rounded float-end" width="30px" alt="logo">
 <br><br><br><br>
 
@@ -141,10 +141,10 @@
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="text-center">Frontend</h5>
-        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">css<br><br>
-        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">js<br><br>
-        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">html<br><br>
+        <h5 class="text-center">Frontend Development</h5>
+        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">HTML<p class="text-start">Basic</p><br>
+        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">JavaScript<p class="text-start">Basic</p><br>
+        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">CSS<p class="text-start">Basic</p>
       </div>
     </div>
   </div>
@@ -152,10 +152,10 @@
   <div class="col-md-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="text-center">Fronted development</h5>
-        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo"><br><br>
-        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo"><br><br>
-        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo"><br><br>
+        <h5 class="text-center">Fronted Development</h5>
+        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">Git<p class="text-start">Basic</p><br>
+        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">SQL<p class="text-start">Basic</p><br>
+        <img src="assets/checkmark.png" class="img-fluid" width="30PX" alt="logo">Php<p class="text-start">Basic</p>
       </div>
     </div>
   </div>
@@ -163,8 +163,106 @@
 
 
 
-
+<br><br><br>
 <img src="assets/arrow.png" class="rounded float-end" width="30px" alt="logo">
+<br><br><br><br><br><br>
+
+
+<!--Cuarta parte-->
+ <!--Projects-->
+
+ <div class="container-body">
+ <h6 class="text-md-center fw-bold">Browse My Recent</h6>
+ <h1 class="text-md-center fw-bold">Projects</h1>
+ </div><br><br><br>
+
+ 
+ <div class="row">
+
+ <div class="col-md-1"></div>
+
+ <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+    <img src="assets/project-1.png" class="img-fluid" width="230px"  alt="...">
+      <div class="card-body">
+      <h1 class="text-md-center fw-bold">Project One</h1>
+     <button type="button" class="btn btn-outline-dark">Github</button>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-md-4">
+ <div class="card" style="width: 18rem;">
+    <img src="assets/project-2.png" class="img-fluid" width="230px"  alt="...">
+      <div class="card-body">
+      <h1 class="text-md-center fw-bold">Project One</h1>
+      <button type="button" class="btn btn-outline-dark">Github</button>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-md-3">
+ <div class="card" style="width: 18rem;">
+     <img src="assets/project-3.png" class="img-fluid"  width="230px"  alt="...">
+      <div class="card-body">
+      <h1 class="text-md-center fw-bold">Project One</h1>
+      <button type="button" class="btn btn-outline-dark">Github</button>
+    </div>
+  </div>
+ </div>
+
+
+</div>
+
+<br><br><br><br><br>
+<img src="assets/arrow.png" class="rounded float-end" width="30px" alt="logo">
+<br><br><br><br><br><br>
+
+
+<!--parte Final-->
+ <!--Contact Me-->
+ 
+ <div class="container-body">
+ <h6 class="text-md-center fw-bold">Browse My Recent</h6>
+ <h1 class="text-md-center fw-bold">Projects</h1>
+ </div><br><br><br>
+
+ <div class="row">
+
+    <div class="col-md-4"></div>
+
+  <div class="col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="text-center"></h1>
+        <img src="assets/email.png" class="img-fluid" width="38PX" alt="logo">eileencano45@gmail.com<p class="text-start"></p>
+        <img src="assets/linkedin.png" class="img-fluid" width="30PX" alt="logo">Linkedin<p class="text-start"></p>
+      </div>
+    </div>
+  </div>
+
+
+   <div class="col-md-4"></div>
+</div>
+
+<br><br><br><br><br>
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">About</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link disabled" aria-disabled="true">Experience</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link disabled" aria-disabled="true">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Contact</a>
+  </li>
+</ul>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
