@@ -20,19 +20,20 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a class="nav-link "  href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -53,12 +54,14 @@
         <h1 class="text-md-center fw-bold">Eileen Cano</h1>
         <h3 class="text-md-center fw-bold">frontend Developer</h3></div>
         
-        <button type="button" class="btn btn-light">Download CV</button>
-        <button type="button" class="btn btn-dark">Contact info</button>
+        <div class="container text-center">
+          <button type="button" style=" border-radius: 20px;" class="btn btn-light" onclick="window.open('./assets/Currículum.pdf')">Download CV </button>
+          <button type="button" style=" border-radius: 20px;" class="btn btn-dark" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
        
 
         <div class="container  p-3">
-        <img src="assets/github.png" class=img-fluid width=30px  alt="...">
+        <a href="https://github.com/eileencano"><img src="./assets/github.png" width="30px" alt=""></a>
         <img src="assets/linkedin.png" class=img-fluid  width=30px alt="..."> 
         </div>
 
@@ -78,42 +81,32 @@
  
 
   <div class="row">
+<div class="row p-5">
+  <p class="text-center" id="about">Get to know more.</p>
+  <h1 class="text-center" >About me</h1>
+</div>
 
-   <div class="container-body">
-    <h6 class="text-md-center fw-bold">Get To Know More</h6>
-    <h1 class="text-md-center fw-bold">About Me</h1>
-    </div><br><br><br>
-
-  <div class= "col-md-2"></div>
-
-  <div class= "col-md-4"><br><br><br>
-   <img src="porta2.jpeg" class="img"   alt="...">
-  </div>
+<div class="row">
+  <div class= "col-md-1"></div>
+  <div class= "col-md-5">
+      <img src="porta2.jpeg" class="img-fluid" alt="...">
+</div>
   
-
-  <div class="col-md-2 text-center"><br><br><br><br><br><br>
-    <div class="card" style="width: 18rem;">
-    <div class="container p-3">
-    <img src="assets/experience.png" class="img-fluid" width="30PX" alt="logo">
-   </div>
-        <div class="card-body">
-          <h5 class="text-md-center fw-bold">Experiencie</h5>
-          <h6 class="card-title"></h6>
-          <h6 class="card-subtitle mb-2 text-body-secondary">frontend</h6>
-         
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-2 text-center"><br><br><br><br><br><br>
-    <div class="card" style="width: 18rem;">
-    <div class="container p-3">
-    <img src="assets/education.png" class="img-fluid" width="30PX" alt="logo">
-   </div>
-        <div class="card-body">
-          <h5 class="text-md-center fw-bold">Education</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">Academic Bachelor</h6>
-        </div>
+  <div class="col-md-5 cold-lg-5 text-center p-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <img src="./assets/education.png" width="50px" alt="">
+            <h5 class="card-title">Education</h5>
+            <p>
+              Academic Bachelor-Heisenberg (2018) <br>
+              Technologist software analysis and development SENA (2025)
+            </p>
+          </div>
+        </div> <br>
+        <p style="text-align: justify; margin: 1;">I am a passionate developer with a solid foundation in programming and problem-solving. Interested in expanding skills, taking on challenges, and exploring new technologies..</p>
+        <div class= "col-md-1"></div>
+        
+  </div>
          
       </div><br><br><br>
       
@@ -130,7 +123,7 @@
  
 
 <div class="container-body">
- <h6 class="text-md-center fw-bold">Explore My</h6>
+<p class="text-center" id="experience">Explore by</p>
  <h1 class="text-md-center fw-bold">Experience</h1>
  </div><br><br><br>
  
@@ -170,99 +163,79 @@
 
 <!--Cuarta parte-->
  <!--Projects-->
-
- <div class="container-body">
- <h6 class="text-md-center fw-bold">Browse My Recent</h6>
- <h1 class="text-md-center fw-bold">Projects</h1>
- </div><br><br><br>
-
- 
  <div class="row">
-
- <div class="col-md-1"></div>
-
- <div class="col-md-4">
-    <div class="card" style="width: 18rem;">
-    <img src="assets/project-1.png" class="img-fluid" width="230px"  alt="...">
-      <div class="card-body">
-      <h1 class="text-md-center fw-bold">Project One</h1>
-     <button type="button" class="btn btn-outline-dark">Github</button>
-    </div>
-  </div>
- </div>
-
- <div class="col-md-4">
- <div class="card" style="width: 18rem;">
-    <img src="assets/project-2.png" class="img-fluid" width="230px"  alt="...">
-      <div class="card-body">
-      <h1 class="text-md-center fw-bold">Project One</h1>
-      <button type="button" class="btn btn-outline-dark">Github</button>
-    </div>
-  </div>
- </div>
-
- <div class="col-md-3">
- <div class="card" style="width: 18rem;">
-     <img src="assets/project-3.png" class="img-fluid"  width="230px"  alt="...">
-      <div class="card-body">
-      <h1 class="text-md-center fw-bold">Project One</h1>
-      <button type="button" class="btn btn-outline-dark">Github</button>
-    </div>
-  </div>
- </div>
-
-
+  <p class="text-lowercase text-center" id="projects">Browse My Recent</p>
+  <h1 class="text-center" >Projects</h1>
 </div>
 
-<br><br><br><br><br>
+<div class="container p-3">
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col">
+    <div class="card">
+      <img src="portafolio1.png"  class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Project One</h5>
+        <div class="container text-center">
+        <a href=https://github.com/eileencano/Portafolio-EileenCano.git><button type="button" class="btn btn-outline-dark" style=" border-radius: 20px;">Github</a></button>
+          <button type="button" class="btn btn-outline-dark" style=" border-radius: 20px;">Live Demo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/project-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Project Two</h5>
+        <div class="container text-center">
+          <button type="button" class="btn btn-outline-dark" style=" border-radius: 20px;">Github</button>
+          <button type="button" class="btn btn-outline-dark" style=" border-radius: 20px;">Live Demo</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="assets/project-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Project Three</h5>
+        <div class="container text-center">
+          <button type="button" class="btn btn-outline-dark" style=" border-radius: 20px;">Github</button>
+          <button type="button" class="btn btn-outline-dark" style=" border-radius: 20px;">Live Demo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
 <img src="assets/arrow.png" class="rounded float-end" width="30px" alt="logo">
 <br><br><br><br><br><br>
 
 
 <!--parte Final-->
  <!--Contact Me-->
- 
- <div class="container-body">
- <h6 class="text-md-center fw-bold">Browse My Recent</h6>
- <h1 class="text-md-center fw-bold">Projects</h1>
- </div><br><br><br>
+ <div class="row m-1 p-2">
+  <p class="text-center" id="contact"> Get in Touch</p>
+  <h1 class="text-center p-2">Contact Me</h1>
 
- <div class="row">
-
-    <div class="col-md-4"></div>
-
-  <div class="col-md-4">
-    <div class="card">
-      <div class="card-body">
-        <h1 class="text-center"></h1>
-        <img src="assets/email.png" class="img-fluid" width="38PX" alt="logo">eileencano45@gmail.com<p class="text-start"></p>
-        <img src="assets/linkedin.png" class="img-fluid" width="30PX" alt="logo">Linkedin<p class="text-start"></p>
-      </div>
+  <div class= "col-md-2 text-center p-2"></div>
+  <div class="card text-center" style="width: 50rem; border-radius: 30px;">
+    <div class="card-body text-center">
+      <ul class="list-inline text-center">
+        <li class="list-inline-item"><a href=""><img class="img-fluid" src="./assets/email.png" alt="" width="50px">eileencano45@gmail.com</a>
+        </li>
+        <li class="list-inline-item"><a href=""><img class="img-fluid" src="./assets/linkedin.png" alt="" width="50px">https://www.linkedin.com/in/eileen-cano-a7a3912a4/</a>
+        </li>
+      </ul>
     </div>
   </div>
-
-
-   <div class="col-md-4"></div>
 </div>
-
-<br><br><br><br><br>
-
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">About</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link disabled" aria-disabled="true">Experience</a>
-  </li>
-  <li class="nav-item">
-  <a class="nav-link disabled" aria-disabled="true">Projects</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Contact</a>
-  </li>
-</ul>
-
-
+  <div class="text-center">
+       <p>Copyright © Eileen Cano. All Rights Reserved</p>
+  </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
